@@ -158,8 +158,10 @@ a {
 }
 .footer-link-mail:hover,
 .footer-link-tel:hover,
+.footer-link:hover,
 .footer-link-mail:focus,
-.footer-link-tel:focus {
+.footer-link-tel:focus,
+.footer-link:focus {
   color: var(--color-nav);
 }
 /* Портфолио */
