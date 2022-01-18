@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: #757575;
 }
 .list {
   list-style: none;
@@ -26,6 +27,10 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
 .header-link-mail,
 .header-link-tel {
   font-weight: 500;
@@ -33,6 +38,12 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.header-link-mail:hover,
+.header-link-tel:hover,
+.header-link-mail:focus,
+.header-link-tel:focus {
+  color: #2196f3;
 }
 /* main */
 
@@ -138,4 +149,41 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-mail:hover,
+.footer-link-tel:hover,
+.footer-link-mail:focus,
+.footer-link-tel:focus {
+  color: #2196f3;
+}
+/* Портфолио */
+.prtf-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.prtf-btn:hover,
+.prtf-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+  border: none;
+}
+.prtf-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.prtf-text {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
