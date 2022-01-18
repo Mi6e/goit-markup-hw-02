@@ -1,3 +1,9 @@
+:root {
+  --header-text-color: #757575;
+  --background: #2f303a;
+  --color-nav: #2196f3;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -29,7 +35,7 @@ a {
 }
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--color-nav);
 }
 .header-link-mail,
 .header-link-tel {
@@ -43,12 +49,12 @@ a {
 .header-link-tel:hover,
 .header-link-mail:focus,
 .header-link-tel:focus {
-  color: #2196f3;
+  color: var(--color-nav);
 }
 /* main */
 
 .hero {
-  background: #2f303a;
+  background: var(--background);
 }
 .title {
   font-weight: 900;
@@ -84,7 +90,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--header-text-color);
 }
 .action-title {
   font-weight: bold;
@@ -116,11 +122,11 @@ a {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--header-text-color);
 }
 /* FOOTER */
 .footer {
-  background: #2f303a;
+  background: var(--background);
 }
 .footer-logo {
   font-family: Raleway;
@@ -154,7 +160,7 @@ a {
 .footer-link-tel:hover,
 .footer-link-mail:focus,
 .footer-link-tel:focus {
-  color: #2196f3;
+  color: var(--color-nav);
 }
 /* Портфолио */
 .prtf-btn {
